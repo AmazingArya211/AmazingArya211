@@ -8,4 +8,4 @@ elif (num2>num1):
 else:
     print ("Both the numbers that you have entered are equal!")
 input("We would appreciate your kind feedback: ")
-print ("Thank You for your feedback... I would !")
+print ("Thank you for your feedback... I will keep on improving it in the future builds!")

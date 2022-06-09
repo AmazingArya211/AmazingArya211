@@ -1,0 +1,18 @@
+#This software is used by School Administration for calculating the grade of the student!
+marks=int(input("Kindly enter marks your marks: "))
+if(marks>=90):
+    print("Amazing! You have scored - Grade A+")
+elif(marks>=80):
+    print("Wow! You have scored - Grade A")
+elif(marks>=70):
+    print("Great! You have scored - Grade B+")
+elif(marks>=60):
+    print("Nice! You have scored - Grade B")
+elif(marks>=50):
+    print("Good! You have scored - Grade C+")
+elif(marks>=40):
+    print("Oh! You have scored - Grade C")
+elif(marks>=30):
+    print("Hmm! You have scored - Grade D")
+else:
+    print("Ahhh, so sorry! You have failed!")

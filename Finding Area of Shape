@@ -1,0 +1,22 @@
+def calculate_area(name):
+  name = name.lower()
+  if name == "rectange":
+    l = int(input("Enter rectangle's length: "))
+    b = int(input("Enter rectangle's breadth: "))
+    rect_area = l * b
+    print("The area of rectangle is: ", rect_area)
+  elif name == "square":
+    s = int(input("Enter the square's side length: "))
+    sqt_area = s ** 2
+    print("The area of square is: ", sqt_area)
+  elif name == "circle":
+    r = int(input("Enter circle's radius length: "))
+    pi = 3.14
+    circ_area = pi * r**2
+    print("The area of circle is: ", circ_area)
+  else:
+    print("Sorry! This shape is not available!")
+print("Shape's Area Finder")
+shape_name = input("Enter the name of the shape whose area you want to find: \n")
+calculate_area(shape_name)
+    
